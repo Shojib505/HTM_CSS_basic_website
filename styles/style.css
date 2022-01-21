@@ -2,3 +2,75 @@ body{
     margin: 0;
     padding: 0;
 }
+.title{
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-side img {
+    width: 400px;
+}
+.btn-details{
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, green, red, green);
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+.btn-details:hover{
+    color: white;
+    cursor: pointer;
+}
+.left-sdie {
+  width: 50%;
+}
+.divission {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+.card {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+}
+.photo img {
+    border-radius: 5px;
+    width: 100%;
+}
+.second-section {
+    padding: 10px;
+}
+.all-divisions {
+    display: flex;
+    justify-content: space-around;
+}
+.description {
+     text-align: left;
+}
+.div-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    font: 16px;
+}
+
+.footer-content {
+    margin-top: 50px;
+}
+.footer-content {
+    text-align: center;
+}
